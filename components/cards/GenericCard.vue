@@ -29,15 +29,14 @@
             >
               {{ title }}
             </h3>
-            <h4
+            <div
               :class="{
                 subtitle: true,
-                'is-6': true,
                 'empty-content-placeholder': !$slots.default
               }"
             >
               <slot></slot>
-            </h4>
+            </div>
           </nuxt-link>
         </div>
       </div>
@@ -79,7 +78,6 @@ export default {
 <style scoped lang="scss">
 .subtitle {
   opacity: 0.5;
-  font-size: 0.8rem;
 }
 .empty-content-placeholder {
   background: transparent;

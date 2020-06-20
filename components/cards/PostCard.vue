@@ -9,12 +9,15 @@
         null
     "
   >
-    <span
+    <!-- <span
       v-if="author && $siteConfig.posts.displayAuthor"
       class="author-wrapper"
     >
       <strong>Author:</strong> {{ author }} |
-    </span>
+    </span> -->
+    <p class="subtitle-wrapper">
+      {{ subtitle }}
+    </p>
     <span v-if="date" class="date-wrapper">
       <strong>Published on:</strong> {{ datePretty }}
     </span>
@@ -43,6 +46,10 @@ export default {
       type: String,
       default: ''
     },
+    subtitle: {
+      type: String,
+      default: ''
+    },
     author: {
       type: String,
       default: ''
@@ -55,3 +62,11 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+.subtitle-wrapper {
+  font-size: 0.9em;
+}
+.date-wrapper {
+  font-size: 0.8rem;
+}
+</style>

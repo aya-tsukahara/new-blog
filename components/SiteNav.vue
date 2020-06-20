@@ -7,12 +7,15 @@
     <div class="navbar-brand">
       <nuxt-link class="navbar-item" to="/">
         <site-logo v-if="$siteConfig.logo === 'logo-component'" />
-        <img
+        <!-- <p
           v-else
           :src="$siteConfig.logo"
           :alt="$siteConfig.siteName"
           class="logo"
-        />
+        /> -->
+        <p v-else>
+          {{ $siteConfig.logo }}
+        </p>
       </nuxt-link>
       <hamburger-button @click="active = !active" />
     </div>
@@ -75,5 +78,10 @@ export default {
 
 .navbar-menu a {
   display: block;
+}
+.navbar-brand {
+  font-family: 'MuseoModerno';
+  font-weight: 600;
+  font-size: 1.6rem;
 }
 </style>
