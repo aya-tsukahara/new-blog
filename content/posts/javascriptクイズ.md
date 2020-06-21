@@ -36,7 +36,5 @@ webpack/gulp4/Git(GitHub使用)
 2. ES6以降のJavaScriptを意識してコーディングしています。
 
 # サンプル画像
-
 ![choice](/uploads/スクリーンショット-2020-06-21-17.10.30.png "choice")
 
-![choice2](/uploads/スクリーンショット-2020-06-21-17.10.57.png "choice2")
