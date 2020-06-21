@@ -1,5 +1,5 @@
 ---
-title: JavaScriptクイズあ
+title: JavaScriptクイズ
 subtitle: YES/NOクイズと3択クイズ
 category:
   - 静的コーディング
