@@ -17,7 +17,7 @@
               href="https://github.com/danielkellyio/awake-template"
               target="_blank"
               >Awake</a
-            >というテンプレートを使用して制作しています。<br />普段はhtml/css/jQUery/JavaScript/PHPが多いため、Vue.jsとNuxt.jsに触れてみたいと思いこの方法を選びました。<br />全くわからないままカスタマイズをしているので現在Vueの基礎から勉強をしています。
+            >というテンプレートを使用して制作しています。<br />普段はHTML/CSS/jQuery/JavaScript/PHPが多いため、Vue.jsとNuxt.jsに触れてみたいと思いこの方法を選びました。<br />全くわからないままカスタマイズをしているので現在Vueの基礎から勉強をしています。
           </p>
           <p>コードを書く上で意識している事<br /></p>
           <dl>
@@ -27,7 +27,7 @@
                 CSS→再利用可能なCSS設計を目指しています。classはFLOCSSを使っています
               </dd>
               <dd>
-                html→普段はejsを使用して繰り返しのデザインはオブジェクトなどにまとめてコーディングしています
+                HTML→普段はejsを使用して繰り返しのデザインはオブジェクトなどにまとめてコーディングしています
               </dd>
             </div>
             <div>
